@@ -1,0 +1,16 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Large acquisition archives retained locally but replaced by the reproducible raw extract.
+data/raw/netflix-shows.zip
+data/raw/netflix/
+data/raw/title.basics.tsv.gz
+data/raw/title.ratings.tsv.gz
